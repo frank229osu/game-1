@@ -1,3 +1,21 @@
 h1 {
     color:red;
 }
+
+.square{
+    background-color: rebeccapurple;
+    width: 23%;
+    padding-bottom: 5%;
+    float: left;
+    margin: 5%;
+    border-radius: 20%;
+    transition: background-color .8s;
+}
+
+.square.winner{
+    background-color: gold;
+}
+
+.square.loser{
+    background-color: red;
+}
